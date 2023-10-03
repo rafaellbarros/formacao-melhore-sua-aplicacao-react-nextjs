@@ -6,15 +6,20 @@
   "author": "Rafael Barros <github.com/rafaellbarros>",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.5.4",
+    "next": "13.4.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "yarn": "^1.22.19"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint-no-cache": "next lint --no-cache"
+  },
+  "devDependencies": {
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.4.19"
   }
 }

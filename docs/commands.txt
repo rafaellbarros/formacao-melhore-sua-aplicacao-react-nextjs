@@ -1,2 +1,8 @@
 # create
 yarn add next react react-dom
+
+# build
+yarn build && yarn start
+
+# server static 
+npx http-server ./out -c-1
