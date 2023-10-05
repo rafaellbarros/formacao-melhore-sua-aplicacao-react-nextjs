@@ -4,7 +4,7 @@
 
 Tecnologias usadas:
 
-* **Node v16.20.2**
+* **Node v16.20.0**
 * **Yarn v1.22.10**
-* **Next.js v13.5.4**
+* **Next.js v13.4.19**
 * **React v18.2.0**
